@@ -1,0 +1,509 @@
+-   config:
+        name: testset description
+        request:
+            base_url: ''
+            headers:
+                User-Agent: presell/1.5.5-debug
+-   test:
+        name: check_is_need_update
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: 'null'
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                app_code: APP_PRESELL
+                sign: b3d41483137a20b8f73b9c3f9f3c9a45
+                timestamp: '1539137242296'
+                token: ''
+                uid: ''
+            url: /consumer-api/system/v1/check_is_need_update
+
+-   test:
+        name: home_info_reform
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: 'null'
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                city_id: '330100'
+                latitude: '30.296177'
+                longitude: '120.1333924'
+                sign: b3b2dfa18d585919f6ce3b8d66e77a0a
+                timestamp: '1539137242523'
+                token: ''
+                uid: ''
+            url: /consumer-api/presell/v1/home_info_reform
+
+-   test:
+        name: search_condition
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: 'null'
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                city_id: '330100'
+                sign: ba5d02f3e60a8eba700a43e0cae2ddf4
+                timestamp: '1539137242541'
+                token: ''
+                uid: ''
+            url: /consumer-api/nearby_shop/v2/search_condition
+
+-   test:
+        name: city_list
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: 'null'
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                sign: dcd92d3f057fcbadddb2b33314fecd82
+                timestamp: '1539137242560'
+                token: ''
+                uid: ''
+            url: /consumer-api/nearby_shop/v1/city_list
+
+-   test:
+        name: shops
+        request:
+            data:
+                appKey: '300001'
+                nearby_shop: '{"nearbyShopBusinessParam":{"businessType":"presell_shop"},"nearbyShopConditionParam":{"additionKey":[{"id":"12","typeContents":["12.2"]}],"cityId":"330100","latitude":"30.296177","longitude":"120.1333924","page":1,"pageSize":5}}'
+                sign: 2aeda467f37f2921af1206e13b9f942b
+                timestamp: '1539137243136'
+                token: ''
+                uid: ''
+            headers:
+                Content-Type: application/x-www-form-urlencoded; charset=utf-8
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: 'null'
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: POST
+            url: /consumer-api/nearby_shop/v2/shops
+
+-   test:
+        name: presell
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: 'null'
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                city_id: '330100'
+                sign: c0af8ab7934c34aef22873c87b1cd386
+                timestamp: '1539137243373'
+                token: ''
+                uid: ''
+            url: /consumer-api/dialog/v1/presell
+
+-   test:
+        name: send_bind_ver_code
+        request:
+            data:
+                appKey: '300001'
+                area_code: '+86'
+                mobile: '13066033004'
+                sign: 1780b34339165e44ac5bcfbed83cbfd2
+                timestamp: '1539137264975'
+                token: ''
+                uid: ''
+            headers:
+                Content-Type: application/x-www-form-urlencoded; charset=utf-8
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: 'null'
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: POST
+            url: /consumer-api/member/action/v2/send_bind_ver_code
+
+-   test:
+        name: mobile_login
+        request:
+            data:
+                appKey: '300001'
+                area_code: '+86'
+                code: '4733'
+                equipment_id: '861365035420665'
+                mobile: '13066033004'
+                sign: e16435d319673847d0ff6d31fdc89c77
+                timestamp: '1539137287245'
+                token: ''
+                uid: ''
+            headers:
+                Content-Type: application/x-www-form-urlencoded; charset=utf-8
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: 'null'
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: POST
+            url: /consumer-api/member/action/v1/mobile_login
+
+-   test:
+        name: get_current_time
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                sign: 6fcfcb5ccf47d0430573349edec1f351
+                timestamp: '1539137288368'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            url: get_current_time
+
+-   test:
+        name: get_app_config
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                app_id: e798887b12c4495193ca546c3d964501
+                config_sign: 8340c301e7ddac1025bca02a42594def
+                os: android
+                sign: 1b8de2d8629bedd19e10b8d7e0478bfb
+                timestamp: '1539137288385'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+                version: '1050500'
+            url: /consumer-api/system/v1/get_app_config
+
+-   test:
+        name: get_server_config
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                sign: e2913fd95a8140daa4ba3d501a8faf6f
+                timestamp: '1539137288402'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            url: /consumer-api/presell/v1/get_server_config
+
+-   test:
+        name: dialog
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                sign: 75302d32924df1ba08472c41e407e4ba
+                timestamp: '1539137288536'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            url: /consumer-api/presell_activity/v2/novice/dialog
+
+-   test:
+        name: center
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                sign: 59df088fe3ee00f259f8994742423879
+                timestamp: '1539137302602'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            url: /consumer-api/member/info/v2/center
+
+-   test:
+        name: shops
+        request:
+            data:
+                appKey: '300001'
+                nearby_shop: '{"nearbyShopBusinessParam":{"businessType":"presell_attention_shop"},"nearbyShopConditionParam":{"cityId":"","latitude":"30.278863","longitude":"120.146637","page":1,"pageSize":5}}'
+                sign: 0978b2f333e235079d101df1fec10da6
+                timestamp: '1539137308808'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            headers:
+                Content-Type: application/x-www-form-urlencoded; charset=utf-8
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: POST
+            url: /consumer-api/nearby_shop/v1/shops
+
+-   test:
+        name: barrage
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                entity_id: '99934192'
+                sign: e116e8795446757437d538106db11175
+                timestamp: '1539137319130'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            url: /consumer-api/presell/v1/barrage
+
+-   test:
+        name: info-base
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                entity_id: '99934192'
+                qr_code: '2'
+                sign: 67603fe1cf2364bdabbe44172cc4b8b1
+                timestamp: '1539137319105'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            url: /consumer-api/presell/shop/v1/info/base
+
+-   test:
+        name: get_shop_delicacy
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                entity_id: '99934192'
+                qr_code: '2'
+                sign: d0bf1dfa8c80ef51554d51f0b293b6f5
+                timestamp: '1539137319151'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            url: /consumer-api/presell/shop/v1/get_shop_delicacy
+
+-   test:
+        name: lock_stock_info
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                entity_id: '99934192'
+                sign: 8948c9e35f84a97f84853a54a4431cbb
+                timestamp: '1539137319216'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            url: /consumer-api/presell/v1/lock_stock_info
+
+-   test:
+        name: entity_index_discount
+        request:
+            headers:
+                androidid: 4107a21750c22d797ec3de6377e3b067
+                deviceBrand: Xiaomi Xiaomi Redmi Note 3
+                equipmentId: '861365035420665'
+                imei: cea9d4c376785fc33075534cfc886e48
+                ip: 223.93.161.98
+                lang: zh_CN
+                network: '1'
+                screenSize: 1920*1080
+                sessionId: sessionId
+                sysVersion: '21'
+                system: android
+                version: '1050500'
+            method: GET
+            params:
+                appKey: '300001'
+                entity_id: '99934192'
+                sign: a906cf071379f9522241248fb4f25c79
+                timestamp: '1539137319239'
+                token: 477011664d025d7ab3ecbac97d754a7c
+                uid: '13066033004'
+            url: /consumer-api/presell/shop/v1/entity_index_discount
