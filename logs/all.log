@@ -2030,3 +2030,515 @@ ValueError: The view HttpRunnerManager.activator.process didn't return an HttpRe
 2019-01-11 17:15:39,974 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
 2019-01-11 17:15:54,849 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14926
 2019-01-11 17:16:03,088 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-17 14:12:52,731 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-17 14:12:52,758 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-01-17 14:12:52,767 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-01-17 14:12:52,785 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-01-17 14:12:53,943 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-01-17 14:12:54,035 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18837
+2019-01-17 14:12:54,062 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/ext-language_tools.js HTTP/1.1" 304 0
+2019-01-17 14:12:54,062 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/ace.js HTTP/1.1" 304 0
+2019-01-17 14:12:54,063 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2019-01-17 14:14:26,949 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18837
+2019-01-17 14:14:28,152 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-17 14:14:28,178 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-17 14:14:37,790 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16892
+2019-01-17 14:14:37,879 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+2019-01-17 14:14:39,197 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18837
+2019-01-17 14:15:01,993 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18837
+2019-01-17 14:15:02,334 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-17 14:15:02,340 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 10:11:20,013 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-23 10:11:20,023 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+2019-01-23 10:11:20,029 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1722
+2019-01-23 10:11:20,044 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-01-23 10:11:20,055 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-01-23 10:11:20,071 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-01-23 10:11:21,440 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-01-23 10:11:21,525 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18837
+2019-01-23 10:11:21,548 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/fileinput.css HTTP/1.1" 304 0
+2019-01-23 10:11:21,548 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/fileinput.js HTTP/1.1" 304 0
+2019-01-23 10:11:21,549 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/fileinput.min.css HTTP/1.1" 304 0
+2019-01-23 10:11:21,550 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2019-01-23 10:11:21,550 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 304 0
+2019-01-23 10:11:21,575 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.serializejson.min.js HTTP/1.1" 304 0
+2019-01-23 10:11:21,575 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/amazeui.min.js HTTP/1.1" 304 0
+2019-01-23 10:11:21,575 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/fileinput.min.js HTTP/1.1" 304 0
+2019-01-23 10:11:21,575 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+2019-01-23 10:11:21,575 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/ace.js HTTP/1.1" 304 0
+2019-01-23 10:11:21,581 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/ext-language_tools.js HTTP/1.1" 304 0
+2019-01-23 10:11:21,582 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2019-01-23 10:11:21,587 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 147015
+2019-01-23 11:16:20,179 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18851
+2019-01-23 11:16:20,655 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:16:20,672 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:16:33,561 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18822
+2019-01-23 11:16:33,995 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:16:34,000 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:18:31,669 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18992
+2019-01-23 11:18:32,293 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:18:32,297 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:36:10,573 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18940
+2019-01-23 11:36:10,591 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 200 2142
+2019-01-23 11:36:11,011 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:36:11,018 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:36:25,441 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18947
+2019-01-23 11:36:25,838 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:36:25,849 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:37:11,737 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18956
+2019-01-23 11:37:11,761 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 11:37:12,069 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:37:12,077 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:37:56,634 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18963
+2019-01-23 11:37:56,652 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 11:37:56,959 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:37:56,964 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:39:12,308 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19026
+2019-01-23 11:39:12,326 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 11:39:12,668 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:39:12,673 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:39:39,697 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19043
+2019-01-23 11:39:42,976 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:39:42,980 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:39:49,638 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19034
+2019-01-23 11:39:49,923 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:39:49,932 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 11:40:05,625 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19034
+2019-01-23 11:40:05,643 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 11:40:05,924 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 11:40:05,931 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:01:56,073 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19034
+2019-01-23 14:01:56,093 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 200 2149
+2019-01-23 14:01:56,514 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:01:56,527 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:02:58,823 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19046
+2019-01-23 14:02:58,842 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 14:02:59,291 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:02:59,297 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:26:56,759 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19035
+2019-01-23 14:26:56,779 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 14:26:57,499 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:26:57,502 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:27:14,262 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19005
+2019-01-23 14:27:14,671 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:27:14,679 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:27:30,258 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19032
+2019-01-23 14:27:30,591 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:27:30,601 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:28:52,520 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19031
+2019-01-23 14:28:53,159 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:28:53,165 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:29:25,375 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19041
+2019-01-23 14:29:25,726 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:29:25,735 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:30:10,599 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19040
+2019-01-23 14:30:10,624 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 14:30:10,938 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:30:10,951 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:30:22,374 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19042
+2019-01-23 14:30:22,716 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:30:22,720 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:31:22,371 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19039
+2019-01-23 14:31:23,046 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:31:23,049 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:31:34,719 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19042
+2019-01-23 14:31:35,012 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:31:35,021 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:31:39,504 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19041
+2019-01-23 14:31:39,707 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:31:39,715 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:32:03,622 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-23 14:32:03,651 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-23 14:32:59,149 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19041
+2019-01-23 14:32:59,218 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-23 14:32:59,308 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-23 14:32:59,915 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:32:59,919 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:33:22,345 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19041
+2019-01-23 14:33:22,366 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 200 1573
+2019-01-23 14:33:22,425 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-23 14:33:22,533 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-23 14:33:22,832 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:33:22,840 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:33:45,404 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19041
+2019-01-23 14:33:45,424 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 200 989
+2019-01-23 14:33:45,471 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-23 14:33:45,583 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-23 14:33:45,843 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:33:45,847 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:34:00,831 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19041
+2019-01-23 14:34:00,854 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 200 1569
+2019-01-23 14:34:00,918 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-23 14:34:01,021 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-23 14:34:01,309 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:34:01,320 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:34:26,948 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19041
+2019-01-23 14:34:26,969 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 200 1569
+2019-01-23 14:34:27,035 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-23 14:34:27,142 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-23 14:34:27,454 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:34:27,458 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 14:36:18,223 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19041
+2019-01-23 14:36:18,241 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 14:36:18,800 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 14:36:18,806 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 17:00:18,348 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\jzs_workspace\projects\httprunnerm_test\HttpRunnerManager\activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "D:\jzs_workspace\projects\httprunnerm_test\ApiManager\views.py", line 21, in <module>
+    from ApiManager.utils.operation import env_data_logic, del_module_data, del_project_data, del_test_data, copy_test_data, \
+ImportError: cannot import name 'get_userNum'
+2019-01-23 17:00:21,121 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/index/ HTTP/1.1" 500 93802
+2019-01-23 17:00:21,248 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 17:00:21,253 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 17:00:48,568 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-23 17:00:50,123 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-01-23 17:00:50,152 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\db\models\sql\query.py", line 1683, in add_fields
+    join_info = self.setup_joins(name.split(LOOKUP_SEP), opts, alias, allow_many=allow_m2m)
+  File "C:\Python36\lib\site-packages\django\db\models\sql\query.py", line 1448, in setup_joins
+    names, opts, allow_many, fail_on_missing=True)
+  File "C:\Python36\lib\site-packages\django\db\models\sql\query.py", line 1379, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'username' into field. Choices are: author, belong_module, belong_module_id, belong_project, create_time, dubbo_is, id, include, name, remark, request, type, update_time
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\jzs_workspace\projects\httprunnerm_test\HttpRunnerManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "D:\jzs_workspace\projects\httprunnerm_test\ApiManager\views.py", line 40, in wrapper
+    return func(request, *args, **kwargs)
+  File "D:\jzs_workspace\projects\httprunnerm_test\ApiManager\views.py", line 122, in index
+    user_list=TestCaseInfo.objects.values('username').distinct()
+  File "C:\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\django\db\models\query.py", line 742, in values
+    clone = self._values(*fields, **expressions)
+  File "C:\Python36\lib\site-packages\django\db\models\query.py", line 737, in _values
+    clone.query.set_values(fields)
+  File "C:\Python36\lib\site-packages\django\db\models\sql\query.py", line 1935, in set_values
+    self.add_fields(field_names, True)
+  File "C:\Python36\lib\site-packages\django\db\models\sql\query.py", line 1706, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'username' into field. Choices are: author, belong_module, belong_module_id, belong_project, create_time, dubbo_is, id, include, name, remark, request, type, update_time
+2019-01-23 17:00:50,418 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/index/ HTTP/1.1" 500 121212
+2019-01-23 17:02:15,252 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-23 17:02:15,363 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 17:02:15,370 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 17:02:18,122 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-01-23 17:02:18,162 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19028
+2019-01-23 17:02:18,187 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 17:15:08,132 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19028
+2019-01-23 17:15:08,975 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 17:15:08,984 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 17:15:12,521 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19028
+2019-01-23 17:15:12,765 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 17:15:12,781 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 17:15:38,714 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19028
+2019-01-23 17:15:39,191 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 17:15:39,198 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-23 18:25:42,501 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19028
+2019-01-23 18:25:42,525 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-23 18:25:42,951 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-23 18:25:42,956 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 14:41:10,191 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-24 14:41:11,367 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-01-24 14:41:11,429 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19123
+2019-01-24 14:41:11,456 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-24 14:41:26,134 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19028
+2019-01-24 14:41:26,398 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 14:41:26,428 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 14:50:30,291 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 14:50:30,324 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 14:50:32,817 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19068
+2019-01-24 14:50:32,972 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 14:50:32,978 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 14:50:33,437 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 14:50:33,441 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 14:50:46,988 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19069
+2019-01-24 14:50:47,059 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 14:50:47,189 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 14:50:47,425 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 14:50:47,435 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 14:55:38,570 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19069
+2019-01-24 14:55:39,439 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 14:55:39,442 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 17:50:53,159 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19235
+2019-01-24 17:50:53,178 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-24 17:50:55,380 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 17:50:55,385 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 17:50:58,231 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 17:50:58,255 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:02:03,499 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 18:02:03,529 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:02:05,384 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19257
+2019-01-24 18:02:05,626 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 18:02:05,631 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:02:05,964 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 18:02:05,968 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 18:02:53,060 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19284
+2019-01-24 18:02:53,175 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 18:02:53,352 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:02:53,628 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 18:02:53,635 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 18:03:11,454 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19283
+2019-01-24 18:03:11,522 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 18:03:11,674 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:03:11,969 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 18:03:11,977 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 18:03:34,855 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19289
+2019-01-24 18:03:34,965 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 18:03:35,096 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:03:35,294 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 18:03:35,304 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 18:04:26,481 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19116
+2019-01-24 18:04:26,550 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 18:04:26,660 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:04:26,887 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 18:04:26,896 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 18:04:51,704 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19116
+2019-01-24 18:04:51,774 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 18:04:51,881 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:04:52,124 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 18:04:52,132 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 18:04:59,824 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\jzs_workspace\projects\httprunnerm_test\HttpRunnerManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "D:\jzs_workspace\projects\httprunnerm_test\ApiManager\views.py", line 40, in wrapper
+    return func(request, *args, **kwargs)
+  File "D:\jzs_workspace\projects\httprunnerm_test\ApiManager\views.py", line 130, in index
+    return render_to_response('index.html', manage_info)
+  File "C:\Python36\lib\site-packages\django\shortcuts.py", line 27, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python36\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python36\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Python36\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Python36\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Python36\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Python36\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Python36\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Python36\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Python36\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Python36\lib\site-packages\django\template\base.py", line 668, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'dictUserCase.item()'
+2019-01-24 18:05:02,307 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/index/ HTTP/1.1" 500 191704
+2019-01-24 18:05:02,531 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 18:05:02,536 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-24 18:11:59,181 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-24 18:11:59,247 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:12:07,994 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-01-24 18:12:08,036 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19295
+2019-01-24 18:12:08,130 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-24 18:12:08,247 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-24 18:16:34,288 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19320
+2019-01-24 18:16:34,633 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-24 18:16:34,637 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 10:31:34,288 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 302 0
+2019-01-25 10:31:34,304 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-25 10:31:34,373 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 10:31:34,396 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 10:31:50,468 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 302 0
+2019-01-25 10:31:50,471 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-25 10:31:50,536 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 10:31:51,479 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-01-25 10:31:51,548 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19320
+2019-01-25 10:31:51,567 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-01-25 10:53:33,215 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 10:53:33,235 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 10:53:37,535 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19320
+2019-01-25 10:53:37,770 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 10:53:37,775 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 10:53:38,045 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 10:53:38,061 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:01:21,129 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19730
+2019-01-25 11:01:21,231 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:01:21,401 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:01:21,927 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:01:21,933 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:02:14,390 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19734
+2019-01-25 11:02:14,488 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:02:14,662 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:02:14,931 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:02:14,936 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:10:19,133 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19750
+2019-01-25 11:10:19,207 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:10:19,324 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:10:20,027 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:10:20,034 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:10:32,102 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 19748
+2019-01-25 11:10:32,160 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:10:32,262 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:10:32,409 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:10:32,415 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:20:43,562 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 23469
+2019-01-25 11:20:43,657 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:20:43,812 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:20:44,777 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:20:44,784 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:26:32,973 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 23484
+2019-01-25 11:26:33,095 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:26:33,271 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:26:33,808 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:26:33,817 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:27:10,019 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 23516
+2019-01-25 11:27:10,114 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:27:10,245 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:27:10,452 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:27:10,462 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:27:29,350 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 23528
+2019-01-25 11:27:29,455 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:27:29,578 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:27:29,792 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:27:29,801 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:28:05,195 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 23528
+2019-01-25 11:28:05,269 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:28:05,387 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:28:05,682 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:28:05,691 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:33:10,015 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 22793
+2019-01-25 11:33:10,102 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:33:10,230 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:33:10,510 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:33:10,517 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:36:26,890 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 21889
+2019-01-25 11:36:26,973 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:36:27,094 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:36:27,364 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:36:27,372 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:37:14,422 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 21917
+2019-01-25 11:37:14,544 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:37:14,654 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:37:14,903 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:37:14,913 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:37:28,039 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 22435
+2019-01-25 11:37:28,150 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:37:28,271 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:37:28,525 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:37:28,533 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:38:11,548 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 22783
+2019-01-25 11:38:11,645 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:38:11,758 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:38:12,259 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:38:12,267 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:38:26,331 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 22802
+2019-01-25 11:38:26,397 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:38:26,515 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:38:26,807 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:38:26,814 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:38:48,369 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 22789
+2019-01-25 11:38:48,443 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:38:48,556 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:38:48,816 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:38:48,824 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:39:02,306 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 22785
+2019-01-25 11:39:02,395 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:39:02,510 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:39:02,796 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:39:02,804 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:39:54,491 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 22583
+2019-01-25 11:39:54,565 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:39:54,681 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:39:54,990 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:39:54,998 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 11:41:44,537 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 22238
+2019-01-25 11:41:44,615 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 11:41:44,728 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 11:41:45,200 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 11:41:45,210 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 14:48:59,512 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 23026
+2019-01-25 14:48:59,595 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 14:48:59,716 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 14:49:04,786 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 14:49:04,793 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 14:49:43,555 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 23048
+2019-01-25 14:49:43,640 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/js/jquery.min.map HTTP/1.1" 404 1696
+2019-01-25 14:49:43,752 [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1720
+2019-01-25 14:49:44,054 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-01-25 14:49:44,061 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 5756
+2019-01-25 15:18:06,883 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-01-25 15:18:07,921 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-01-25 15:18:07,962 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 23048
+2019-01-25 15:18:07,993 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 200 1569
+2019-02-11 14:43:55,115 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3874
+2019-02-11 14:43:55,134 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+2019-02-11 14:43:55,135 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 304 0
+2019-02-11 14:43:55,135 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 304 0
+2019-02-11 14:43:55,150 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 304 0
+2019-02-11 14:43:55,162 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 304 0
+2019-02-11 14:43:55,219 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-02-11 14:43:55,225 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 304 0
+2019-02-11 14:43:57,249 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-02-11 14:43:57,334 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 22772
+2019-02-11 14:43:57,358 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/fileinput.css HTTP/1.1" 304 0
+2019-02-11 14:43:57,358 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 0
+2019-02-11 14:43:57,358 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2019-02-11 14:43:57,358 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/fileinput.min.js HTTP/1.1" 304 0
+2019-02-11 14:43:57,359 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/fileinput.min.css HTTP/1.1" 304 0
+2019-02-11 14:43:57,359 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/fileinput.js HTTP/1.1" 304 0
+2019-02-11 14:43:57,370 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 304 0
+2019-02-11 14:43:57,371 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.serializejson.min.js HTTP/1.1" 304 0
+2019-02-11 14:43:57,371 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/amazeui.min.js HTTP/1.1" 304 0
+2019-02-11 14:43:57,371 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/ext-language_tools.js HTTP/1.1" 304 0
+2019-02-11 14:43:57,372 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/butcss.css HTTP/1.1" 304 0
+2019-02-11 14:43:57,372 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/ace.js HTTP/1.1" 304 0
+2019-02-11 14:43:57,382 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+2019-02-11 14:43:57,382 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2019-02-11 14:44:08,353 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 32914
+2019-02-11 14:49:06,651 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list_dubbo/1 HTTP/1.1" 301 0
+2019-02-11 14:49:06,700 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list_dubbo/1/ HTTP/1.1" 200 34737
+2019-02-11 14:49:06,866 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-02-11 14:49:11,420 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case_dubbo/113/ HTTP/1.1" 200 37416
+2019-02-11 14:49:11,599 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/theme-github.js HTTP/1.1" 200 2172
+2019-02-11 14:49:11,603 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/mode-c_cpp.js HTTP/1.1" 200 10820
+2019-02-11 14:49:11,657 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/snippets/text.js HTTP/1.1" 200 127
+2019-02-11 14:49:11,696 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/snippets/c_cpp.js HTTP/1.1" 200 2659

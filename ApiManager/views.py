@@ -19,7 +19,7 @@ from ApiManager.utils.common import module_info_logic, project_info_logic, case_
     set_filter_session, get_ajax_msg, register_info_logic, task_logic, load_modules, upload_file_logic, \
     init_filter_session, get_total_values, timestamp_to_datetime
 from ApiManager.utils.operation import env_data_logic, del_module_data, del_project_data, del_test_data, copy_test_data, \
-    del_report_data, add_suite_data, copy_suite_data, del_suite_data, edit_suite_data, add_test_reports,get_cases_by_module
+    del_report_data, add_suite_data, copy_suite_data, del_suite_data, edit_suite_data, add_test_reports,get_cases_by_module,get_casesNum_by_user
 from ApiManager.utils.pagination import get_pager_info,add_cases
 from ApiManager.utils.runner import run_by_batch, run_test_by_type
 from ApiManager.utils.task_opt import delete_task, change_task_status
@@ -109,18 +109,24 @@ def index(request):
     module_length = ModuleInfo.objects.count()
     test_length = TestCaseInfo.objects.filter(type__exact=1).count()
     suite_length = TestSuite.objects.count()
-
     total = get_total_values()
+
+    init_filter_session(request)
+    user_list=UserInfo.objects.values_list('username').distinct()
+    dictUserCase=get_casesNum_by_user(user_list)
+
+
     manage_info = {
         'project_length': project_length,
         'module_length': module_length,
         'test_length': test_length,
         'suite_length': suite_length,
         'account': request.session["now_account"],
-        'total': total
+        'total': total,
+        'dictUserCase':dictUserCase
     }
 
-    init_filter_session(request)
+
     return render_to_response('index.html', manage_info)
 
 

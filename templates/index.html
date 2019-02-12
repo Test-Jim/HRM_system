@@ -26,9 +26,11 @@
             </dl>
         </div>
 
+        <button class="newfanhaoyue" id="changetouser" onclick=source() style="display:block;margin:0 auto">切换维度</button>
         <div id="main" style="height:80%; margin-top: 5%;"></div>
-
     </div>
+
+    <link rel="stylesheet" href="{% static 'assets/css/butcss.css' %}"/>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
@@ -40,100 +42,171 @@
     <script type="text/javascript"
             src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+
     <script>
-        var dom = document.getElementById("main");
-        var myChart = echarts.init(dom);
-        var app = {};
-        option = null;
-        app.title = '折柱混合';
-
-        option = {
-            tooltip: {
-                trigger: 'axis',
-                axisPointer: {
-                    type: 'cross',
-                    crossStyle: {
-                        color: '#999'
+        var OnclickStatus=0;
+        function source(){
+            var dom = document.getElementById("main");
+            var myChart = echarts.init(dom);
+            var app = {};
+            option = null;
+            if (OnclickStatus==0){
+                app.title = '折柱混合';
+                option = {
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                            type: 'cross',
+                            crossStyle: {
+                                color: '#999'
+                            }
+                        }
+                    },
+                    toolbox: {
+                        feature: {
+                            dataView: {show: false, readOnly: false},
+                            magicType: {show: true, type: ['line', 'bar']},
+                            restore: {show: true},
+                            saveAsImage: {show: true}
+                        }
+                    },
+                    legend: {
+                        data: ['失败用例', '成功用例', '通过率']
+                    },
+                    xAxis: [
+                        {
+                            type: 'category',
+                            data: [],
+                            axisPointer: {
+                                type: 'shadow'
+                            }
+                        }
+                    ],
+                    yAxis: [
+                        {
+                            type: 'value',
+                            name: '个数',
+                            min: 0,
+                            max: 100,
+                            interval: 10,
+                            axisLabel: {
+                                formatter: '{value} '
+                            }
+                        },
+                        {
+                            type: 'value',
+                            name: '成功率',
+                            min: 0,
+                            max: 100,
+                            interval: 10,
+                            axisLabel: {
+                                formatter: '% {value}'
+                            }
+                        }
+                    ],
+                    series: [
+                        {
+                            name: '失败用例',
+                            type: 'bar',
+                            data: []
+                        },
+                        {
+                            name: '通过率',
+                            type: 'line',
+                            yAxisIndex: 1,
+                            data: []
+                        },
+                        {
+                            name: '成功用例',
+                            type: 'bar',
+                            data: []
+                        }
+                    ]
+                };
+                if (option && typeof option === "object") {
+                    var xAxis_data = get_date_xAxis();
+                    option.xAxis[0].data = xAxis_data;
+                    option.series[0].data = {{ total.fail }};
+                    option.series[1].data = {{ total.percent }};
+                    option.series[2].data = {{ total.pass }};
+                    var max_fail = Math.max.apply(null, option.series[0].data);
+                    var max_pass = Math.max.apply(null, option.series[2].data);
+                    if (Math.max(max_fail, max_pass) > 100) {
+                        option.yAxis[0].max = Math.max(max_fail, max_pass) + 10;
+                        option.yAxis[0].interval = parseInt(Math.max(max_fail, max_pass) / 10);
                     }
+                    myChart.setOption(option, true);
                 }
-            },
-            toolbox: {
-                feature: {
-                    dataView: {show: false, readOnly: false},
-                    magicType: {show: true, type: ['line', 'bar']},
-                    restore: {show: true},
-                    saveAsImage: {show: true}
-                }
-            },
-            legend: {
-                data: ['失败用例', '成功用例', '通过率']
-            },
-            xAxis: [
-                {
-                    type: 'category',
-                    data: [],
-                    axisPointer: {
-                        type: 'shadow'
-                    }
-                }
-            ],
-            yAxis: [
-                {
-                    type: 'value',
-                    name: '个数',
-                    min: 0,
-                    max: 100,
-                    interval: 10,
-                    axisLabel: {
-                        formatter: '{value} '
-                    }
-                },
-                {
-                    type: 'value',
-                    name: '成功率',
-                    min: 0,
-                    max: 100,
-                    interval: 10,
-                    axisLabel: {
-                        formatter: '% {value}'
-                    }
-                }
-            ],
-            series: [
-                {
-                    name: '失败用例',
-                    type: 'bar',
-                    data: []
-                },
-                {
-                    name: '通过率',
-                    type: 'line',
-                    yAxisIndex: 1,
-                    data: []
-                },
-                {
-                    name: '成功用例',
-                    type: 'bar',
-                    data: []
-                }
-            ]
-        };
-        if (option && typeof option === "object") {
-            var xAxis_data = get_date_xAxis();
-            option.xAxis[0].data = xAxis_data;
-            option.series[0].data = {{ total.fail }};
-            option.series[1].data = {{ total.percent }};
-            option.series[2].data = {{ total.pass }};
-
-            var max_fail = Math.max.apply(null, option.series[0].data);
-            var max_pass = Math.max.apply(null, option.series[2].data);
-
-            if (Math.max(max_fail, max_pass) > 100) {
-                option.yAxis[0].max = Math.max(max_fail, max_pass) + 10;
-                option.yAxis[0].interval = parseInt(Math.max(max_fail, max_pass) / 10);
+                ++OnclickStatus;
             }
-            myChart.setOption(option, true);
+            else{
+                    app.title = '用户和用例个数';
+                    option = {
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                            type: 'cross',
+                            crossStyle: {
+                                color: '#999'
+                            }
+                        }
+                    },
+                    toolbox: {
+                        feature: {
+                            dataView: {show: false, readOnly: false},
+                            magicType: {show: true, type: ['line', 'bar']},
+                            restore: {show: true},
+                            saveAsImage: {show: true}
+                        }
+                    },
+                    legend: {
+                        data: ['X用户', 'Y用例数量']
+                    },
+                    xAxis: [
+                        {
+                            type: 'category',
+                            data: [],
+                            axisPointer: {
+                                type: 'shadow'
+                            }
+                        }
+                    ],
+                    yAxis: [
+                        {
+                            type: 'value',
+                            name: '个数',
+                            min: 0,
+                            max: 100,
+                            interval: 10,
+                            axisLabel: {
+                                formatter: '{value} '
+                            }
+                        }
+                    ],
+                    series: [
+                        {
+                            name: 'X用户',
+                            type: 'bar',
+                            data: []
+                        },
+                        {
+                            name: 'Y用例数量',
+                            type: 'bar',
+                            data: []
+                        }
+                    ]
+                };
+                    if (option && typeof option === "object") {
+                    var get_user_info = get_user();
+                    option.xAxis[0].data = get_user_info[0];
+                    option.series[1].data = get_user_info[1];
+
+                    myChart.setOption(option, true);
+                    }
+                --OnclickStatus;
+            }
         }
+
 
         function get_date_xAxis() {
             var data = [];
@@ -142,6 +215,17 @@
             }
             return data.reverse();
         }
+
+        function get_user(){
+            var user=[];
+            var case_num=[];
+            {% for k,v in dictUserCase.items %}
+                user.push('{{k}}');
+                case_num.push('{{v}}');
+            {% endfor %}
+            return [user,case_num];
+        }
+
 
         function getDay(day) {
             var today = new Date();
@@ -162,7 +246,10 @@
             }
             return m;
         }
+        window.onload = source;
     </script>
+
+
 
 
 

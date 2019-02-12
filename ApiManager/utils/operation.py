@@ -463,3 +463,10 @@ def get_cases_by_module(module_id,type=1):
     case_opt = TestCaseInfo.objects
     ids=case_opt.get_case_id_InModule(module_id,type)
     return ids
+
+def get_casesNum_by_user(user_list,type=1):
+    dictUserCase={}
+    for index in user_list:
+        count=TestCaseInfo.objects.filter(type=type).filter(author=index[0]).count()
+        dictUserCase[index[0]]=count
+    return dictUserCase
